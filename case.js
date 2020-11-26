@@ -12,7 +12,7 @@ $(document).ready(function(){
         if(a==""||b==""){
             alert("enter all fields");
         }
-        else if(a=="admin"&&b=="1234"){
+        else if(a=="admin"&&b=="12345"){
             window.location.href = "main.html";
         }
         else{
