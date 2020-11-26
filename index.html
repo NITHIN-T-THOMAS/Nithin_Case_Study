@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Study</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="case.js"></script>
+
+</head>
+<body class="body-back">
+        <!-- The video -->
+        <video autoplay muted loop id="myVideo">
+            <source src="particles.mp4" type="video/mp4">
+        </video>
+    <div id="c">
+    <header>
+        <nav class="navbar navbar-dark bg-dark nav justify-content-center">
+            <form class="form-inline">
+              <button class="btn btn-outline-success" type="button" onclick="home()">Home</button>
+            </form>
+          </nav>
+    </header>
+
+
+
+    <!-- Form start -->
+    <div class="login-box">
+        <form>
+            <h2 class="container-1" style="margin-left: 15%; padding-top: 5%;color: black;">User Login</h2>
+            <br>
+            <div  class="container-1" >
+                <label  style="color: black;">Username</label>
+                <input class="container-1"  id="use" type="text" placeholder="Username" required>
+            </div>
+            <br>
+            <div  class="container-1" >
+                <label style="color: black;">Password</label>
+                <input id="pwd" type="password" placeholder="password" required>
+            </div>
+            <br>
+            <div class="nav justify-content-center text-white">
+                <button id="btn" class="btn btn-outline-success" type="button" >Login</button>
+            </div>
+
+        </form>
+    </div>
+    <!-- Form end -->
+</div>    
+</body>
+</html>

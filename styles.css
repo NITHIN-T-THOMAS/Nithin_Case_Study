@@ -1,0 +1,89 @@
+/* .body-back{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+/* video back */
+.body-back{
+    position: fixed;
+}
+#c2{
+    position: relative;
+    width: 100%;
+}
+#c{
+  position: fixed;
+  width: 100%;
+}
+  /* back video */
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+
+
+
+.login-box{
+    margin-left: 40%;
+    margin-top: 10%;
+    margin-right: 40%;
+    background-color: rgba(241, 241, 240, 0.466);
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.425);
+    padding-left: 2%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+}
+
+.container-1{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* table */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+#t01 {
+  width: 100%;    
+  background-color: #f1f1c1c9;
+}
+
+#custom {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+#custom td, #custom th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  background-color: rgba(221, 221, 221, 0.589);
+}
+
+#custom tr:nth-child(even){background-color: #f2f2f2;}
+
+#custom tr:hover {background-color: rgba(133, 131, 158, 0.884);}
+
+#custom th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf4fc9;
+  color: white;
+  }
+
