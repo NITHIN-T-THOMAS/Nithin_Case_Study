@@ -44,6 +44,15 @@
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.664);
 }
 
+#use:hover{
+  background-color: rgba(241, 241, 240, 0.774);
+}
+
+#pwd:hover{
+  background-color: rgba(241, 241, 240, 0.774);
+}
+
+
 .container-1{
     display: flex;
     flex-direction: column;
